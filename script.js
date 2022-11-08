@@ -71,7 +71,7 @@ let userScore = document.querySelector(".score").textContent;
 userScore = Number.parseInt(userScore);
 let guessInput = 0;
 let highScore = 0;
-console.log("Correct Answer = ", computerGuess);
+// console.log("Correct Answer = ", computerGuess);
 //Store input of check class
 document.querySelector(".check").addEventListener("click", clickCheck);
 //add functionality in again button
