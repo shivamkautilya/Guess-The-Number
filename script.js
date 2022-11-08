@@ -9,7 +9,7 @@ function clickAgain() {
   numberGenerator();
   computerGuess = numberGenerator();
   userScore = 20;
-  console.log("Correct Answer = ", computerGuess);
+  // console.log("Correct Answer = ", computerGuess);
   document.body.style.backgroundColor = "#222";
   document.querySelector(".message").textContent = "Start Guessing...";
   document.querySelector(".score").textContent = 20;
